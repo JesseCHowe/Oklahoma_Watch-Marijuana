@@ -1,0 +1,98 @@
+   body {
+        padding: 0;
+        margin: 0;
+ 
+      background: rgb(240,240,240);
+    }
+  svg{
+  /*background: orange;*/
+  }
+    h1 {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-family: "Proxima Nova", Montserrat, sans-serif;
+        font-size: 2em;
+        font-weight: 100;
+   
+    }
+  .sidebar{
+    width: 100%;
+   
+    height: 100%;
+  }
+    .county {
+    } 
+      .waterTwo {
+
+      fill: none;
+    } 
+  .road{
+
+  }
+
+  .bridges:hover {
+  opacity: 1;
+
+  }
+.bridges{
+
+  opacity: 0.9;
+}
+  div.tooltip {   
+  /*position: absolute;           
+  text-align: left;           
+  width: 150px;                  
+  height: auto;                 
+  padding: 2px;             
+  font-size: 12px;
+    font-family: open-sans,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+  background: whitesmoke;
+           
+  pointer-events: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}  
+
+.suffRat{
+  color: #fff;
+  font-size: 14px;
+    border-radius: 8px;
+   padding: 10px; 
+  text-align: center;
+}
+
+.background{
+ 
+  opacity: 0.5;
+}
+
+.tooltip_contain{
+
+}
+
+.container{
+  max-width: 600px;
+}
+
+.btn_container{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.desc{
+    max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
